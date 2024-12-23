@@ -101,7 +101,7 @@ The project uses the 1994 US Census dataset, which is split into two files:
 
 1. **Demographic Parity**:  
    The probability of predicting a salary above $50K should be the same for both genders. For instance:  
-   - \( P(\text{Salary} > 50K \mid \text{Gender} = \text{Male}) = P(\text{Salary} > 50K \mid \text{Gender} = \text{Female}) \).
+   - ( P({Salary} > 50K {Gender} = {Male}) = P({Salary} > 50K {Gender} = {Female}) )
 
 2. **Separation**:  
    The predictions should be conditionally independent of gender when evidence is provided. This ensures fairness when considering additional factors.
